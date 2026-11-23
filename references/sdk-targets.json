@@ -1,0 +1,76 @@
+{
+  "contract_fingerprint": "c7ca5e5ebb4c092910ec72b371e188303358c5e34d2908c0a88f782a241162cf",
+  "sdk_targets_version": "1.1.0",
+  "targets": [
+    {
+      "identity": {
+        "coordinates": "jack_ai_platform_os_hub_api_public_subset@1.0.0",
+        "ecosystem": "CMake",
+        "entry": "omniwrap::Client",
+        "import": "#include \"omniwrap/client.hpp\""
+      },
+      "operations": {
+        "failUsageQuota": {
+          "member": "fail_usage_quota",
+          "method": "POST",
+          "path": "/v1/kernel/usage/fail",
+          "resource": "kernel",
+          "signature": "ApiResponse fail_usage_quota() const"
+        },
+        "finalizeUsageQuota": {
+          "member": "finalize_usage_quota",
+          "method": "POST",
+          "path": "/v1/kernel/usage/finalize",
+          "resource": "kernel",
+          "signature": "ApiResponse finalize_usage_quota() const"
+        },
+        "getCurrentUser": {
+          "member": "get_current_user",
+          "method": "GET",
+          "path": "/user/me",
+          "resource": "user",
+          "signature": "ApiResponse get_current_user() const"
+        },
+        "getHealth": {
+          "member": "get_health",
+          "method": "GET",
+          "path": "/health",
+          "resource": "health",
+          "signature": "ApiResponse get_health() const"
+        },
+        "getSignupPolicy": {
+          "member": "get_signup_policy",
+          "method": "GET",
+          "path": "/user/auth/signup-policy",
+          "resource": "user",
+          "signature": "ApiResponse get_signup_policy() const"
+        },
+        "loginUser": {
+          "member": "login_user",
+          "method": "POST",
+          "path": "/user/auth/login",
+          "resource": "user",
+          "signature": "ApiResponse login_user() const"
+        },
+        "reserveUsageQuota": {
+          "member": "reserve_usage_quota",
+          "method": "POST",
+          "path": "/v1/kernel/usage/reserve",
+          "resource": "kernel",
+          "signature": "ApiResponse reserve_usage_quota() const"
+        },
+        "submitWaitlistRequest": {
+          "member": "submit_waitlist_request",
+          "method": "POST",
+          "path": "/user/auth/waitlist",
+          "resource": "user",
+          "signature": "ApiResponse submit_waitlist_request() const"
+        }
+      },
+      "package_directory": "../jack-ai-platform-os-hub-api-public-subset-cpp-sdk",
+      "package_manifest": "CMakeLists.txt",
+      "reference": "api.md",
+      "renderer": "cpp"
+    }
+  ]
+}

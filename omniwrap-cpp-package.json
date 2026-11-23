@@ -1,0 +1,76 @@
+{
+  "artifact_type": "cpp-sdk",
+  "package_manifest": "CMakeLists.txt",
+  "package_name": "jack_ai_platform_os_hub_api_public_subset",
+  "package_version": "1.0.0",
+  "runtime_floor": ">=3.16",
+  "source_files": [
+    {
+      "path": ".omniwrap-skill-manifest.json",
+      "sha256": "477da673a52503fc4537f3d8d2ed9eee3d26dc992be6dc09e1f6bca50bbaaa7c",
+      "size_bytes": 406
+    },
+    {
+      "path": "agent-session.json",
+      "sha256": "dfde09aec8c7eac812649774efd2e7d84bd34dbbebfeb59edf8e0ac239c4b114",
+      "size_bytes": 22848
+    },
+    {
+      "path": "AGENT_SESSION.md",
+      "sha256": "8e6f6526d2fcf8fbba9435b317013b8aca97b14bfb392342451c01ce2eb7eaba",
+      "size_bytes": 715
+    },
+    {
+      "path": "api.md",
+      "sha256": "fa37a4ebd1c4d292b4b4c8ab81a6848a3d060eb0d7277b4fbb5b5ec98fbe5577",
+      "size_bytes": 10492
+    },
+    {
+      "path": "CMakeLists.txt",
+      "sha256": "de489d40cc7c700a3798c078f730189ba03d6abe14e50ca0ccb859cbfcb84b0b",
+      "size_bytes": 864
+    },
+    {
+      "path": "include/omniwrap/client.hpp",
+      "sha256": "19b45d31be2cbbc6db0b7dfabcf68a707bb0f39db33ab528edbde20599177f2e",
+      "size_bytes": 3556
+    },
+    {
+      "path": "include/omniwrap_agent_session.hpp",
+      "sha256": "af539c0ece9c75288eb8baec5c00b5b5737fd64e4537f61b59a5da74423fe0bc",
+      "size_bytes": 1179
+    },
+    {
+      "path": "include/omniwrap_client.h",
+      "sha256": "45ae59a32dde99975faca8cec4f76eaaddc49f718a7599248e1c1391917afd18",
+      "size_bytes": 4259
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "fb11dfcf40507855f2fbe0fdcee036cfe549b3ef7e52ebeb09e0dd66d552a128",
+      "size_bytes": 282
+    },
+    {
+      "path": "README.md",
+      "sha256": "72b86a2e3854a05facbfe0e587cdcbc9c108344683e133d37a04bf1cb34d0b12",
+      "size_bytes": 842
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "d0bb5a41fd03adcd14c3410c26a99e13e84efcc7b01bb9796563c5eaa71b1a32",
+      "size_bytes": 6144
+    },
+    {
+      "path": "src/client.c",
+      "sha256": "238a599863cc2ec2b6d46483e55900b779be392b5c0d1b4acd642de8188f1018",
+      "size_bytes": 25194
+    },
+    {
+      "path": "src/client.cpp",
+      "sha256": "26bd24fc6cbaf193603d2dc4f670b2abda9026fcd60b9a8c58464584c4bdb5d1",
+      "size_bytes": 9289
+    }
+  ],
+  "source_version": "1.0.0",
+  "target": "cpp"
+}
